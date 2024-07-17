@@ -8,6 +8,9 @@ module.exports = {
         ice: ["Iceberg", "sans-serif"],
         nosi: ["Nosifer", "sans-serif"],
       },
+      colors: {
+        'dark-blue': '#f7fafc',
+      },
     },
   },
   plugins: [],
