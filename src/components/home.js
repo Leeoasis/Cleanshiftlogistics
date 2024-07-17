@@ -49,7 +49,7 @@ const Home = () => {
 
 
             {/* Services Section */}
-            <section id="services" className="py-20 bg-gray-100">
+ <section id="services" className="py-20 bg-gray-100">
     <div className="container mx-auto px-6 lg:px-20">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -66,6 +66,14 @@ const Home = () => {
                     </div>
                 </div>
             ))}
+        </div>
+        <div className="text-center mt-12">
+            <a 
+                href="/services" // Replace this URL with the link to your detailed services page
+                className="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition duration-300"
+            >
+                View More Services
+            </a>
         </div>
     </div>
 </section>
@@ -170,7 +178,7 @@ const Home = () => {
                         {/* View More Reviews Button */}
                         <div className="text-center mt-12">
                             <a href="https://www.google.com/search?q=w%26p+furniture+removals+and+storage&oq=p+%26+w+furni&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogTSAQkxMjgxNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&lqi=CiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdlSPCuw_DcsYCACFpGEAAQARACEAMQBBgAGAEYAhgDGAQiIncmcCBmdXJuaXR1cmUgcmVtb3ZhbHMgYW5kIHN0b3JhZ2UqDAgCEAAQARACEAMQBJIBEWxvZ2lzdGljc19zZXJ2aWNlqgFLEAEyHxABIhu32UhrpXnt9aridAqOo3s3u-aU3ksnAqJ423MyJhACIiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdl#lkt=LocalPoiReviews&rlimm=4947805188751358580"
-                             className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300" target="_blank">View More Reviews
+                             className="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition duration-300" target="_blank">View More Reviews
                             </a>
                         </div>
                     </div>
@@ -200,7 +208,7 @@ const Home = () => {
                                     <label htmlFor="message" className="block text-gray-800 font-semibold mb-2">Message</label>
                                     <textarea id="message" name="message" rows="4" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
                                 </div>
-                                <button type="submit" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">Send Message</button>
+                                <button type="submit" className="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition duration-300">Send Message</button>
                             </form>
                         </div>
                     </div>
