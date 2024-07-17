@@ -10,7 +10,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <div className="absolute inset-y-0 left-0 flex items-center my-4">
                         <NavLink to="/" className="flex items-center bg-white rounded-full w-24 p-2">
-                            <img src={Logo} alt="Cleanshift Logistics" className="h-20" /> {/* Adjust the height as needed */}
+                            <img src={Logo} alt="Cleanshift Logistics" className="h-20" /> 
                         </NavLink>
                     </div>
 
