@@ -17,25 +17,11 @@ const services = [
         image: 'https://cdn.prod.website-files.com/5a4be71aa12183000115e62c/637119599e4b67cd45c241dd_move-out-cleaneing-hero.webp',
     },
     {
-        title: 'Residential Cleaning for Furniture Removal',
-        description: 'Specialized cleaning services tailored for residential spaces to prepare for furniture removal or after furniture has been moved, ensuring a fresh and organized environment.',
-        image: 'https://i.pinimg.com/564x/18/33/2b/18332bedfe3c808165577b63c000be57.jpg',
-    },
-    {
         title: 'Commercial Cleaning for Furniture Removal',
         description: 'Targeted cleaning solutions for commercial spaces, including offices and retail locations, to handle furniture removal and maintain a professional appearance.',
         image: 'https://i.pinimg.com/564x/b6/b3/27/b6b327069abe320eed84ba7c3b721970.jpg',
     },
-    {
-        title: 'Post-Removal Cleaning',
-        description: 'Thorough cleaning services provided after furniture removal, designed to leave your space immaculate and ready for the next use.',
-        image: 'https://i.pinimg.com/736x/89/3b/ea/893beab226e906de3c2ffdcf6da2350f.jpg',
-    },
-    {
-        title: 'Janitorial Services',
-        description: 'Regular cleaning and maintenance plans for commercial facilities, including support for furniture removal activities to ensure ongoing cleanliness and order.',
-        image: 'https://i.pinimg.com/736x/ba/37/a6/ba37a6e4f52530aed17da90ee76c5ac1.jpg',
-    },
+ 
 ];
 
 
