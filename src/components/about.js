@@ -7,11 +7,18 @@ const AboutPage = () => {
     return (
         <div>
             {/* Hero Section */}
-            <section className="relative bg-gray-800 text-white py-20 px-4 min-h-screen flex items-center justify-center">
-                <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
-                <div className="relative z-20 text-center max-w-3xl">
-                    <h1 className="text-5xl font-bold mb-4 leading-tight">About Cleanshift Logistics</h1>
-                    <p className="text-lg mb-6">Your Trusted Partner in Furniture Removal and Cleaning Solutions</p>
+            <section 
+                className="relative py-20 bg-cover bg-center text-white"
+                style={{ backgroundImage: 'url("https://www.shutterstock.com/image-illustration/contact-us-message-landing-page-260nw-765294988.jpg")' }}
+            >
+                <div className="absolute inset-0 bg-black opacity-50"></div>
+                <div className="relative container mx-auto px-4 flex flex-col items-center text-center">
+                    <h1 className="text-5xl font-extrabold mb-6 leading-tight">
+                        About Cleanshift Logistics
+                    </h1>
+                    <p className="text-xl mb-8">
+                        Your Trusted Partner in Furniture Removal and Cleaning Solutions
+                    </p>
                 </div>
             </section>
 
