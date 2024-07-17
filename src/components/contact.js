@@ -49,9 +49,9 @@ const ContactPage = () => {
                             <h2 className="text-4xl font-bold text-gray-900 mb-6">Contact Information</h2>
                             <p className="text-gray-700 mb-4">Feel free to reach out to us through any of the following methods:</p>
                             <ul className="space-y-4 text-gray-700">
-                                <li><span className="font-semibold">Phone:</span> (123) 456-7890</li>
+                                <li><span className="font-semibold">Phone:</span>+27697013743</li>
                                 <li><span className="font-semibold">Email:</span> info@cleanshiftlogistics.com</li>
-                                <li><span className="font-semibold">Address:</span> 123 Main Street, Suite 100, Your City, Your State, 12345</li>
+                                <li><span className="font-semibold">Address:</span> 72 Voortrekker Road,Unclear, Bellville, Capetown</li>
                             </ul>
                             <h2 className="text-4xl font-bold text-gray-900 mt-12 mb-6">Opening Hours</h2>
                             <ul className="space-y-2 text-gray-700">

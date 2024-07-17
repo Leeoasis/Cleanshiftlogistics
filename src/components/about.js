@@ -1,7 +1,7 @@
 import React from 'react';
 import TeamImage from '../assets/images/shift1.jpg';
-import MissionImage from '../assets/images/shift1.jpg';
-import ValuesImage from '../assets/images/shift1.jpg';
+import MissionImage from '../assets/images/mission.jpeg';
+import ValuesImage from '../assets/images/values.jpeg';
 
 const AboutPage = () => {
     return (

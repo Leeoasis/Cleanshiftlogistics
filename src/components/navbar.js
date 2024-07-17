@@ -7,10 +7,11 @@ const Navbar = () => {
         <nav className="bg-gray-800 p-4">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
-                    {/* Logo */}
-                    <div className="absolute inset-y-0 left-0 flex items-center my-4">
-                        <NavLink to="/" className="flex items-center bg-white rounded-full w-24 p-2">
-                            <img src={Logo} alt="Cleanshift Logistics" className="h-20" /> 
+                    {/* Logo and Name */}
+                    <div className="flex items-center space-x-4 bg-white rounded-full p-2">
+                        <NavLink to="/" className="flex items-center">
+                            <img src={Logo} alt="CleanShift Logistics" className="h-12 w-auto" />
+                            <span className="text-gray-800 text-xl font-semibold ml-3">CleanShift Logistics</span>
                         </NavLink>
                     </div>
 
