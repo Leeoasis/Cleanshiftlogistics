@@ -1,7 +1,4 @@
 import React from 'react';
-import AboutUsImage from '../assets/images/shift1.jpg'; // Optional: Replace or remove this if not needed
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserGroup, faStar, faShieldAlt, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 const services = [
     {
@@ -14,18 +11,57 @@ const services = [
         description: 'Comprehensive cleaning services designed for homes and offices during moving in or out, ensuring a spotless space and smooth transition.',
         image: 'https://cdn.prod.website-files.com/5a4be71aa12183000115e62c/637119599e4b67cd45c241dd_move-out-cleaneing-hero.webp',
     },
-    // Add other services here
+    {
+        title: 'Commercial Logistics',
+        description: 'Reliable and efficient logistics solutions for businesses, ensuring timely delivery and safe transportation of goods.',
+        image: 'https://i.pinimg.com/736x/06/9f/de/069fde26c118ba9a55118474f2b61d4f.jpg',
+    },
+    {
+        title: 'Residential Moving',
+        description: 'Professional residential moving services to ensure a smooth and stress-free relocation experience for families.',
+        image: 'https://i.pinimg.com/564x/1e/2a/ed/1e2aed556182bbdd9cd221efc83b57f4.jpg',
+    },
+    {
+        title: 'Office Relocation',
+        description: 'Expert office relocation services to minimize downtime and ensure a seamless transition for your business operations.',
+        image: 'https://i.pinimg.com/564x/8a/6d/55/8a6d55f1e5cdf0c76fe19716ed1e952d.jpg',
+    },
+    {
+        title: 'Residential Cleaning for Furniture Removal',
+        description: 'Specialized cleaning services tailored for residential spaces to prepare for furniture removal or after furniture has been moved, ensuring a fresh and organized environment.',
+        image: 'https://i.pinimg.com/564x/18/33/2b/18332bedfe3c808165577b63c000be57.jpg',
+    },
+    {
+        title: 'Post-Removal Cleaning',
+        description: 'Thorough cleaning services provided after furniture removal, designed to leave your space immaculate and ready for the next use.',
+        image: 'https://i.pinimg.com/736x/89/3b/ea/893beab226e906de3c2ffdcf6da2350f.jpg',
+    },
+    {
+        title: 'Janitorial Services',
+        description: 'Regular cleaning and maintenance plans for commercial facilities, including support for furniture removal activities to ensure ongoing cleanliness and order.',
+        image: 'https://i.pinimg.com/736x/ba/37/a6/ba37a6e4f52530aed17da90ee76c5ac1.jpg',
+    },
 ];
 
 const ServicesPage = () => {
     return (
         <div>
             {/* Hero Section */}
-            <section className="relative text-white py-20 px-4 min-h-screen flex items-center justify-center bg-blue-900">
+            <section 
+                className="relative py-20 bg-cover bg-center text-white"
+                style={{ backgroundImage: 'url("https://img.freepik.com/free-vector/isometric-lock-padlock-keyhole-cyber-security-information-network-protection-future-cyber-technology-web-services-business-internet-project_587448-1059.jpg")' }}
+            >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
-                <div className="relative z-10 text-center max-w-3xl">
-                    <h1 className="text-5xl font-bold mb-4 leading-tight">Our Comprehensive Services</h1>
-                    <p className="text-lg mb-6">Explore our wide range of services designed to meet all your removal and cleaning needs.</p>
+                <div className="relative container mx-auto px-4 flex flex-col items-center text-center">
+                    <h1 className="text-5xl font-extrabold mb-6 leading-tight">
+                        Discover Our Expert Services
+                    </h1>
+                    <p className="text-xl mb-8">
+                        We offer a comprehensive range of services tailored to meet all your removal and cleaning needs, ensuring a seamless experience from start to finish.
+                    </p>
+                    <a href="#services" className="bg-white text-blue-900 font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-200 transition duration-300">
+                        Explore Services
+                    </a>
                 </div>
             </section>
 
@@ -43,41 +79,11 @@ const ServicesPage = () => {
                                 />
                                 <div className="p-6">
                                     <h3 className="text-2xl font-bold text-gray-800 mb-4">{service.title}</h3>
-                                    <p className="text-gray-700">{service.description}</p>
+                                    <p className="text-gray-700 mb-4">{service.description}</p>
+                                    <a href="/contact" className="text-blue-500 hover:underline">Get a Quote</a>
                                 </div>
                             </div>
                         ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Contact Section */}
-            <section className="py-20 px-4 bg-gray-100">
-                <div className="container mx-auto px-6 lg:px-20">
-                    <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Contact Us</h2>
-                    <div className="flex flex-col md:flex-row items-stretch">
-                        <div className="bg-white border border-gray-300 rounded-lg shadow-lg p-6 md:w-1/2 mb-8 md:mb-0 transition-transform transform hover:scale-105">
-                            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h3>
-                            <p className="text-gray-700 mb-4">Have questions or need a quote? Contact us today!</p>
-                            <p className="text-gray-700 mb-4">Phone: +27697013743<br /> Email: info@cleanshiftlogistics.com</p>
-                        </div>
-                        <div className="bg-white border border-gray-300 rounded-lg shadow-lg p-6 md:w-1/2 transition-transform transform hover:scale-105">
-                            <form>
-                                <div className="mb-4">
-                                    <label htmlFor="name" className="block text-gray-800 font-semibold mb-2">Your Name</label>
-                                    <input type="text" id="name" name="name" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" />
-                                </div>
-                                <div className="mb-4">
-                                    <label htmlFor="email" className="block text-gray-800 font-semibold mb-2">Your Email</label>
-                                    <input type="email" id="email" name="email" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" />
-                                </div>
-                                <div className="mb-4">
-                                    <label htmlFor="message" className="block text-gray-800 font-semibold mb-2">Message</label>
-                                    <textarea id="message" name="message" rows="4" className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
-                                </div>
-                                <button type="submit" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">Send Message</button>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </section>
