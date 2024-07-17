@@ -4,13 +4,22 @@ const ContactPage = () => {
     return (
         <div>
             {/* Hero Section */}
-            <section className="relative bg-gray-800 text-white py-20 px-4 min-h-screen flex items-center justify-center">
-                <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
-                <div className="relative z-20 text-center max-w-3xl">
-                    <h1 className="text-5xl font-bold mb-4 leading-tight">Contact Us</h1>
-                    <p className="text-lg mb-6">Get in touch with Cleanshift Logistics</p>
+            <section 
+                className="relative py-20 bg-cover bg-center text-white"
+                style={{ backgroundImage: 'url(https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=612x612&w=0&k=20&c=_vmYyAX0aFi-sHH8eYS-tLLNfs1ZWXnNB8M7_KWwhgg=)' }}
+                aria-labelledby="contact-us-heading"
+            >
+                <div className="absolute inset-0 bg-black opacity-50" aria-hidden="true"></div>
+                <div className="container mx-auto px-4 flex flex-col items-center relative z-10">
+                    <h1 id="contact-us-heading" className="text-5xl font-extrabold mb-6 leading-tight text-center">
+                        Contact Us
+                    </h1>
+                    <p className="text-lg mb-6 text-center">
+                        Get in touch with Cleanshift Logistics for efficient and reliable furniture removal and cleaning services.
+                    </p>
                 </div>
             </section>
+
 
             {/* Contact Form Section */}
             <section className="py-20 bg-white">
