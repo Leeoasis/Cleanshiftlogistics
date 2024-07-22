@@ -158,7 +158,7 @@ const Home = () => {
                                     <div className="flex-1">
                                         <p className="text-gray-700 text-lg mb-4">"Primrose, the lovely owner, was responsive and communicative from start to finish. She and her team of 4 arrived early on the day and despite the rain, wrapped, loaded and unloaded our 4 bedroomed household into storage within half a day. The quote was extremely competitive. We added to their supply of bubble wrap and tape along the way. I would definitely use W&P again."</p>
                                         <p className="font-semibold text-gray-800">Mags Winsor</p>
-                                        <a href="https://www.google.com/search?q=w%26p+furniture+removals+and+storage&oq=p+%26+w+furni&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogTSAQkxMjgxNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&lqi=CiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdlSPCuw_DcsYCACFpGEAAQARACEAMQBBgAGAEYAhgDGAQiIncmcCBmdXJuaXR1cmUgcmVtb3ZhbHMgYW5kIHN0b3JhZ2UqDAgCEAAQARACEAMQBJIBEWxvZ2lzdGljc19zZXJ2aWNlqgFLEAEyHxABIhu32UhrpXnt9aridAqOo3s3u-aU3ksnAqJ423MyJhACIiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdl#lkt=LocalPoiReviews&rlimm=4947805188751358580" target="_blank" className="text-blue-500 hover:underline">View Source</a>
+                                        <a href="https://www.google.com/search?q=w%26p+furniture+removals+and+storage&oq=p+%26+w+furni&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogTSAQkxMjgxNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&lqi=CiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdlSPCuw_DcsYCACFpGEAAQARACEAMQBBgAGAEYAhgDGAQiIncmcCBmdXJuaXR1cmUgcmVtb3ZhbHMgYW5kIHN0b3JhZ2UqDAgCEAAQARACEAMQBJIBEWxvZ2lzdGljc19zZXJ2aWNlqgFLEAEyHxABIhu32UhrpXnt9aridAqOo3s3u-aU3ksnAqJ423MyJhACIiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdl#lkt=LocalPoiReviews&rlimm=4947805188751358580" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">View Source</a>
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ const Home = () => {
                                     <div className="flex-1">
                                         <p className="text-gray-700 text-lg mb-4">"We used Cleanshift Logistics today. The owner, Primrose was on site with 2 packers. The truck was clean and the driver consulted the parking area. They were on time, friendly, helpful, and did packing excellently. We will recommend this company and will use them in the future again. Thank you Primrose and team!!"</p>
                                         <p className="font-semibold text-gray-800">Elmarie Janse Van Rensburg</p>
-                                        <a href="https://www.google.com/maps/contrib/118280748571725071619/reviews/@-34.5882961,19.3501289,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu" target="_blank" className="text-blue-500 hover:underline">View Source</a>
+                                        <a href="https://www.google.com/maps/contrib/118280748571725071619/reviews/@-34.5882961,19.3501289,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-US&entry=ttu" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">View Source</a>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@ const Home = () => {
                         {/* View More Reviews Button */}
                         <div className="text-center mt-12">
                             <a href="https://www.google.com/search?q=w%26p+furniture+removals+and+storage&oq=p+%26+w+furni&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogTSAQkxMjgxNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&lqi=CiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdlSPCuw_DcsYCACFpGEAAQARACEAMQBBgAGAEYAhgDGAQiIncmcCBmdXJuaXR1cmUgcmVtb3ZhbHMgYW5kIHN0b3JhZ2UqDAgCEAAQARACEAMQBJIBEWxvZ2lzdGljc19zZXJ2aWNlqgFLEAEyHxABIhu32UhrpXnt9aridAqOo3s3u-aU3ksnAqJ423MyJhACIiJ3JnAgZnVybml0dXJlIHJlbW92YWxzIGFuZCBzdG9yYWdl#lkt=LocalPoiReviews&rlimm=4947805188751358580"
-                             className="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition duration-300" target="_blank">View More Reviews
+                             className="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition duration-300" target="_blank" rel="noreferrer">View More Reviews
                             </a>
                         </div>
                     </div>
